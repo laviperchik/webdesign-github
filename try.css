@@ -2,5 +2,8 @@ body {
   margin: 0;
   font-family: arial, sans-serif;
   line-height: 1.5;
-  color: aqua;
+}
+a {
+  color: darkred;
+  
 }
