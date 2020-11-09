@@ -1,15 +1,24 @@
 body {
   margin: 0;
-  font-family: arial, sans-serif;
+  font-family: 'Assistant', sans-serif;
   line-height: 1.5;
 }
 a {
   color: darkred;
   
 }
-
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 48px;
+  color: brown;
+}
 img {
   max-width: 100%;
   width: auto;
   height: auto;
+}
+h2 {
+  font-weight: 300;
+  font-size: 36px;
+  color: #c1a;
 }
