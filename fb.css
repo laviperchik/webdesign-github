@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: 'Assistant', sans-serif;
+  line-height: 1.5;
+}
+a {
+/*  color: darkred;*/
+  
+}
+h1 {
+  font-family: 'Secular One', cursive;
+  font-size: 48px;
+/*  color: brown;*/
+}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+h2 {
+  color: #08c;
+  font-weight: 300;
+  font-size: 36px;
+/*  color: #c1a;*/
+}
+.container {
+    max-width: 800px;
+  margin: auto;
+}
+summary {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+summary:hover {
+  background: #eee;
+}
+summary img {
+  display: block;
+}
+details * {
+  padding: 5px;
+}
+details[open] {
+  border: 1px solid #ddd;
+}
+details[open] summary {
+  border-bottom: 1px solid #ddd;
+}
