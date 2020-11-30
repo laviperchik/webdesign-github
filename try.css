@@ -4,22 +4,74 @@ body {
   line-height: 1.5;
   color: #656565;
 }
+
 a {
-  color: darkred;
-  
+  color: #08c;
 }
 h1 {
   font-family: 'Amatic SC', cursive;
   font-size: 48px;
   color: #794522;
 }
+
 img {
   max-width: 100%;
   width: auto;
   height: auto;
 }
+
 h2 {
   font-weight: 300;
   font-size: 36px;
   color: #c1885b;
 }
+h3 {
+  color: #c1885b;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.cta {
+  background: #facdd2;
+  font-size: 21px;
+/*  text-align: center;*/
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.cta h3 {
+  color: black;
+}
+
+
+
+.button {
+  background: #2d688a;
+  color: #fff;
+  text-decoration: none;
+  padding:10px 30px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.button-black {
+  background: #000;
+}
+
+.alignleft {
+  max-width: 40%;
+  float: left;
+  margin-right: 14px;
+  margin-bottom: 14px;
+}
+
+
+.cta .alignleft  {
+  max-width: 150px;
+}
+
+
