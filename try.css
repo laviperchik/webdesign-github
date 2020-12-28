@@ -75,17 +75,43 @@ h3 {
 }
 
 
-
 .news {
-  padding: 60px;
-  background: url(img/bg1.jpg);
+  padding: 60px; 
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url(img/bg.jpg);
+   
+/*
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url(img/bg.jpg);
+*/
   background-position: center;
   background-size: cover;
   text-align: center;
   font-size: 24px;
-  color: #000;
+  color: #fff;
 }
 .news h2 {
-  color: #000;
+  color: #fff;
   font-size: 50px;
+}
+
+
+input {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 2px solid #fff;
+  padding: 5px;
+}
+label {
+  margin-bottom:20px;
+  display: block;
+}
+label span {
+  display: inline-block;
+  width: 100px;
+}
+.news .button {
+  background: none;
 }
