@@ -75,3 +75,32 @@ h2 {
   font-size: 36px;
   text-align: center;
 }
+a {
+  color: #000;
+}
+
+.contact {
+  background: #b8bfcf;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 60px;
+  padding: 40px 0;
+}
+.contact a:hover {
+  opacity: 0.7;
+}
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+.contact li {
+  margin-bottom: 7px;
+}
+.footer {
+  background: #000;
+  text-align: center;
+  padding: 40px 0;
+}
+.footer a {
+  margin: 0 10px;
+}
