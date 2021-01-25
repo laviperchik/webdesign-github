@@ -8,7 +8,9 @@ h1, h2, h3, h4, .button {
   font-weight: 400;
 }
 .about {
-  background: #000;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/background.jpg) center;
+  background-size: 100%;
+  background-attachment: fixed;
   font-size: 24px;
   color: #fff;
 }
@@ -95,6 +97,12 @@ a {
 }
 .contact li {
   margin-bottom: 7px;
+}
+.contact a {
+  text-decoration: none;
+}
+.contact a:hover {
+  text-decoration: underline;
 }
 .footer {
   background: #000;
